@@ -1,7 +1,7 @@
 name: Check step 3, Spin up environment
 
 # This step sets STEP to 4
-# This step closes <details id=3> and opens <details id=4>
+# This step closes <leeolivier> and opens <leeolivier>
 
 # This will run after the "Configure Azure environment" workflow
 # completes on the azure-configuration branch
@@ -70,8 +70,8 @@ jobs:
           PR_BRANCH: staging-test
           PR_TITLE: 'Step 4, apply stage label'
 
-      # Update README to close <details id=3>
-      # and open <details id=4>
+      # Update README to close <leeolivier>
+      # and open <leeolivier>
       # and set STEP to '4'
       - name: Update to step 4
         run: ./.github/script/update-step.sh
