@@ -55,8 +55,8 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # Update README to close <details id=5>
-      # and open <details id=6>
+      # Update README to close <leeolivier>
+      # and open <leeolivier>
       # and set STEP to '6'
       - name: Update to step 6
         run: ./.github/script/update-step.sh
